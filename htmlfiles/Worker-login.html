@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="/styles/worker-login.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="images"></div>
+        <div class="loginform">
+            <div class="logindiv">   <!-- userlogin and worker login btn-->
+                <form action="user-login.jsp" method="post">
+                    <input type="submit" value="User Login" class="userbtn">
+                </form>
+                <form action="worker-login.jsp" method="post">
+                    <input type="submit" value="Worker Login" class="workerbtn">
+                </form>
+            </div>
+            <h1>User Login Form</h1>
+            <form action="UserLoginAction" method="post">
+                <h4>Username..</h4>
+                <input type="text" name="username"  class="inputusername">
+                <h4>Password</h4>
+                <input type="password" name="password"  class="inputpassword">
+                <h4>forgot password</h4>
+                <h4>don't have account..</h4>
+                <input type="submit" value="Login" class="submitbtn">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
